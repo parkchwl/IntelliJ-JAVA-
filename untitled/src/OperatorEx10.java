@@ -5,8 +5,8 @@ public class OperatorEx10 {
         int result1 = a * a / a;
         int result2 = a / a * a;
 
-        System.out.println(result1);
-        System.out.println(result2);
+        System.out.printf("%d * %d / %d = %d%n", a, a ,a, result1);
+        System.out.printf("%d / %d * %d = %d%n", a, a, a, result2);
     }
 }
 /*실행 결과 결과값이 1,000,000에 1,000,000을 먼저 곱한 후에 나누는 것과
