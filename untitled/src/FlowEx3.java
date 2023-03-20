@@ -5,7 +5,7 @@
 } else {
     //조건식이 거짓(false)일 때 수행될 문장들을 적는다.
 } */
-import  java.util.*; //Scanner 클래스를 사용하기 위해 추가
+import java.util.*; //Scanner 클래스를 사용하기 위해 추가
 public class FlowEx3 {
     public static void main(String args[]){
     System.out.print("숫자를 하나 입력하세요.>");
@@ -18,3 +18,9 @@ public class FlowEx3 {
         }
     } //main 의 끝
 }
+/* if-else 블럭 내의 문장이 하나뿐인 경우 아래와 같이 괄호{}를 생략할 수 있다.
+if(input==0)
+    System.out.println("입력하신 숫자는 0입니다.");
+else
+    System.out.println("입력하신 숫자는 0이 아닙니다.");
+ */
