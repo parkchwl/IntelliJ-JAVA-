@@ -1,5 +1,5 @@
 public class OperatorEx11 {
-    public static void main(String args []){
+    public static void main(String [] args){
         char a = 'a';
         char d = 'd';
         char zero = '0';

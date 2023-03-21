@@ -1,5 +1,5 @@
 public class OperatorxEx26 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         /* 논리 연산자의 특징은 효율적인 연산을 한다는 것이다. OR 연산 '||'의 경우, 두 피연산자 중 어느 한쪽만 '참'이어도 전체 연산결과가 '참'이므로
         좌측 피연산자가 'ture(참)이면, 우측 피연산자의 값은 평가하지 않는다.
         AND 연산 '&&' 의 경우도 마찬가지로 어느 한쪽만 '거짓(false)'이면 우측 피연산자는 평가하지 않는다.

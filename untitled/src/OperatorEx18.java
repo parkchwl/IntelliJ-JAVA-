@@ -1,6 +1,6 @@
 //Math.round()를 이용하여 간단하게 반올림해보자.
 public class OperatorEx18 {
-    public static void main(String args []){
+    public static void main(String [] args){
         double pi = 3.141592;
         double shortPi = Math.round(pi * 1000) / 1000.0;
         System.out.println(shortPi);

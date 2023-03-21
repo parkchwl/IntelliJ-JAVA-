@@ -5,7 +5,7 @@
  */
 import java.util.*; //Scanner 클래스를 사용하기 위해 추가
 public class FlowEx2 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         int input;
 
         System.out.print("숫자를 하나 입력하세요.>");

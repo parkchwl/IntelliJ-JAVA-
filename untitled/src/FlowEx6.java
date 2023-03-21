@@ -14,7 +14,7 @@ switch 문에서 break 문은 각 case 문의 영역을 구분하는 역할을 �
 switch 문 블럭 {}의 끝을 만날 때까지 나오는 모든 문장들을 수행한다. 이러한 이유로 각 case 문의 마지막에 break 문을 빼먹는 실수를 하지 않도록 주의해야한다.*/
 import java.util.*;
 public class FlowEx6 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         System.out.print("현재 월을 입력하세요.>");
         Scanner scanner = new Scanner(System.in);
         int month = scanner.nextInt(); // 화면을 통해 입력받은 숫자를 month 에 저장한다.

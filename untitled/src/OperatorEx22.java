@@ -1,5 +1,5 @@
 public class OperatorEx22 {
-    public static void main(String args []) {
+    public static void main(String [] args) {
         float f = 0.1f;
         double d = 0.1;
         double d2 = (double)f;

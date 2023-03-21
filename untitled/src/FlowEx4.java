@@ -33,7 +33,7 @@ else 블럭이 생략되었을 때는 if-else if 문의 어떤 블럭도 수행�
 
 import java.util.*;
 public class FlowEx4 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         int score = 0; //점수를 저장하기 위한 변수
         char grade = ' '; //학점은 저장하기 위한 변수. 공백으로 초기화한다.
 

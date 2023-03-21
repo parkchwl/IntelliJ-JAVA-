@@ -15,7 +15,7 @@ if (조건식1){
  */
 import java.util.*;
 public class FlowEx5 {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         int score = 0;
         char grade = ' ', opt = '0';
 

@@ -1,5 +1,5 @@
 public class OperatorEx13 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         char c1 = 'a';
 
         //char c2 = c1+1; 라인5번은 컴파일 에러가 발생한다.

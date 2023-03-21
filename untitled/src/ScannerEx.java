@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ScannerEx {
-    public static void main(String args[]){
+    public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         //기본타입
         byte a = sc.nextByte();       // byte 입력

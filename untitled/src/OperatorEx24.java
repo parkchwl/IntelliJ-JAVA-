@@ -1,5 +1,5 @@
 public class OperatorEx24 {
-    public static void main(String args[]){
+    public static void main(String [] args){
         int x = 0;
         char ch = ' ';
 
