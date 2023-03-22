@@ -19,6 +19,7 @@ public class FlowEx3 {
     } //main 의 끝
 }
 /* if-else 블럭 내의 문장이 하나뿐인 경우 아래와 같이 괄호{}를 생략할 수 있다.
+# 예시
 if(input==0)
     System.out.println("입력하신 숫자는 0입니다.");
 else

@@ -17,7 +17,10 @@ public class FlowEx2 {
         }
         if(input!=0){
             System.out.println("입력하신 숫자는 0이 아닙니다.");
-            System.out.printf("입력하신 숫자는 %d입니다.", input);
+            System.out.printf("입력하신 숫자는 %d입니다.", input); //if 문 밖의 문장이다.
+            /* 두 번째 if 문은 괄호 {} 를 생략했기 때문에, 조건식 바로 다음에 오는 하나의 문장만 if 문에 속하게 된다.
+            그래서 실행결과를 보면 세 번째 출력문이 항상 출력된다.
+             */
         }
     } //main의 끝
 }

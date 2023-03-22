@@ -41,14 +41,14 @@ public class FlowEx4 {
         Scanner scanner = new Scanner(System.in);
         score = scanner.nextInt(); //화면을 통해 입력받은 숫자를 score 에 저장한다.
 
-        if (score >=90) {
+        if (score >=90) {       //score 가 90점 보다 크거나 같으면 A학점
             grade = 'A';
-        } else if (score >=80)
+        } else if (score >=80)   //score 가 80점 보다 크거나 같으면 B학점
         {
             grade = 'B';
-        } else if (score >=70) {
+        } else if (score >=70) { //score 가 70점 보다 크거나 같으면 C학점
             grade = 'C';
-        } else {
+        } else {                 //나머지는 D 학점이다.
             grade = 'D';
         }
         System.out.println("당신의 학점은 "+grade +"입니다.");
