@@ -1,13 +1,13 @@
 class CardTest {
     public static void main(String [] args) {
-        System.out.println("Card.width = " + Card.width);   // 클래스 변수(static변수)는 객체생성 없이 '클래스이름.클래스'변수로
-        System.out.println("Card.height = " + Card.height); // 직접 사용 가능하다.
+        System.out.println("Card.width = " + Card5.width);   // 클래스 변수(static변수)는 객체생성 없이 '클래스이름.클래스'변수로
+        System.out.println("Card.height = " + Card5.height); // 직접 사용 가능하다.
 
-        Card c1 = new Card();
+        Card5 c1 = new Card5();
         c1.kind = "Heart";
         c1.number = 7;
 
-        Card c2 = new Card();
+        Card5 c2 = new Card5();
         c2.kind = "Spade";      // 인스턴스의 값을 변경한다.
         c2.number = 4;
 
@@ -22,7 +22,7 @@ class CardTest {
 
     }
 }
-class Card {
+class Card5 {
     String kind ;
     int number;
     static int width = 100;          // Card 인스턴스인 c1과 c2는 클래스 변수인 width와 height을 공유한다.
