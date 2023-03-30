@@ -76,3 +76,13 @@ class PolyArgumentTest02 {
         b.summary();
     }
 }
+/* 위 예제에서 Proudct배열로 구입한 제품들을 저장할 수 있도록 했지만, 배열의 크기를 10으로 했기 때문에 11개 이상의 제품을 구입할 수 없는 것이 문제다.
+그렇다고 해서 배열의 크기를 무조건 크게 설정할 수 만도 없는 일이다.
+이런 경우, Vector클래스를 사용하면 된다. Vector클래스는 내부적으로 Object타입의 배열을 가지고 있어서, 이 배열에 객체를 추가하거나 제거할 수 있게 작성되어 있다.
+그리고 배열의 크기를 알아서 관리해주기 때문에 저장할 인스턴스의 개수에 신경 쓰지 않아도 된다.
+public class Vector extends AbtactList
+                implements List, Cloneable, java.io.Serializable {
+        protected Object elementData[];
+    ...}
+Vector 클래스는 이름 때문에 클래스의 기능을 오해할 수 있는데, 단지 동적으로 크기가 관리되는 객체배열일 뿐이다.
+ */
