@@ -20,7 +20,7 @@ class Tv5 {
     void channelUp()    { ++channel; }
     void channelDown()  { --channel; }
 }
-class CaptionTv extends Tv {
+class CaptionTv extends Tv5 {
     boolean caption;        //캡션상태(on/off)'
 
     void displatCaption(String text) {

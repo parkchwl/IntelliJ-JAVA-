@@ -90,5 +90,5 @@ class PolyArgumentTest3 {
     }
 }
 /* 문자열과 참조변수의 덧셈(결합연삭)은 참조변수에 toString()을 호출해서 문자열을 얻어 결합한다.
-그래서 위 예제에 나오는 "+p는 " + p.toString()이 되고, 만일 p.toString()의 결과가 "Audio"라면 + "Audio"가 되어 결국 "Audio"가 된다.ㄷㅇ
+그래서 위 예제에 나오는 "+p는 " + p.toString()이 되고, 만일 p.toString()의 결과가 "Audio"라면 + "Audio"가 되어 결국 "Audio"가 된다.
  */
