@@ -72,3 +72,10 @@ class SCV01 extends GroundUnit implements Repariable {
         }
     }
 }
+/* repair 메서드의 매개변수 r은 Repariable타입이기 때문에 인터페이스 Repairable에 정의된 멤버만 사용할 수 있다.
+그러나 Repairable에는 정의된 멤버가 없으므로 이 타입의 참조변수로는 할 수 있는 일이 아무 것도 없다.
+그래서 instanceof 연산자로 타입을 체크한 뒤 캐스팅하여 Unit클래스에 정의된 hitPoint와 MAX_HP를 사용할 수 있도록 하였다.
+그 다음엔 유닛의 현재 체력(hitPoint)이 유닛이 가질 수 있는 최고 체력(MAX_HP)이 될 때까지 체력을 증가시키는 작업을 수행한다.
+
+Marine은 Repairalbe 인터페이스를 구현하지 않았으므로 SCV클래스의 repair메서드의 매개변수로 Marine을 사용하면 컴파일 시에 에러가 발생한다.
+ */
